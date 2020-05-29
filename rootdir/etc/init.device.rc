@@ -9,6 +9,9 @@ on init
     setprop persist.vendor.camera.HAL3.enabled 1
     setprop persist.vendor.qti.telephony.vt_cam_interface 1
 
+    # Set fingerprint properties
+    setprop ro.fpsensor.position 1
+
     # Variant properties
 on property:ro.boot.hardware.sku=XT1921-3
     setprop ro.opengles.version 196608
