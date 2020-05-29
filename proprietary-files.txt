@@ -106,6 +106,9 @@ vendor/lib/libzxingcpp.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/lib_motsensorlistener.so
 
+# Camera - from deen_sprout PPKS29.68-16-36-13
+vendor/lib/libmot_gpu_mapper.so|df7f1c64994d1807b5f75045a0f55de457c77198
+
 # Camera ISP
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
