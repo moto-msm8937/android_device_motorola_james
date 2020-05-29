@@ -12,6 +12,9 @@ DEVICE_PATH := device/motorola/james
 # Assert
 TARGET_OTA_ASSERT_DEVICE := james,rjames
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG := james_defconfig
 
